@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(219, 255, 239);
+}
+
+a {
+    color: rgb(22, 120, 51);
+    text-decoration: none;
+}
+/* 以下を追加 */
+/* ヘッダー */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid rgb(218, 255, 223);
+    background-color: rgb(89, 188, 120);
+}
+
+.header__title {
+    font-size: 1.2rem;
+    line-height: 64px;
+    text-align: center;
+}
+/* 以下を追加 */
+/* フッター */
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 64px;
+    border-top: 1px solid #3eac59;
+    background-color: rgb(89, 202, 113);
+}
+
+.footer__item {
+    width: 50%;
+}
+
+.footer__link {
+    display: block;
+    height: 48px;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer__icon {
+    line-height: 24px;
+}
+
+.footer__label {
+    line-height: 24px;
+}
