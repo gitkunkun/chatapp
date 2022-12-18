@@ -16,6 +16,7 @@ a {
     height: 64px;
     border-bottom: 1px solid rgb(218, 255, 223);
     background-color: rgb(89, 188, 120);
+    color: rgb(51, 119, 64);
 }
 
 .header__title {
